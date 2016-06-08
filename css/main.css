@@ -1,0 +1,67 @@
+body{
+   background-image: url(../bck.png)!important;
+   background-size: cover !important;
+   color: white !important;
+   font-size: 16px !important;
+   height: 100vh;
+   padding-top: 3%;
+}
+#horaPeru{
+    font-size: 5em;
+}
+
+.caja {
+   border: 1px solid black;
+   width: 140px;
+   height: 33px;
+   margin: auto;
+   background-color: #A5A5A5 ;
+   padding: 5px 9px;
+}
+
+.ventanas{
+   position: fixed;
+   background-color: rgba(0, 0, 0, 0.86);
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   display: none;
+}
+
+.lugares{
+    position: relative;
+    padding: 1%;
+    width: 87%;
+    margin: auto;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.cerrar{
+    position: absolute;
+   right: 21px;
+   font-weight: bold;
+   color: gray;
+}
+
+.cerrar:hover{
+    color: red;
+    /*cursor: default;*/
+    cursor: pointer;
+}
+.caja:hover{
+   cursor: pointer;
+}
+
+.ponerhora{
+    text-align: right;
+    width: 49%;
+    display:    inline-block;    
+}
+
+.ponerlugar{
+    text-align:left;
+    width: 49%;
+    display:    inline-block;    
+}
